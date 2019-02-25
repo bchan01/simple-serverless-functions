@@ -31,4 +31,4 @@ Generate Access Key, create Service Account and assign roles, enable roles for t
 * npm install
 * Edit serverless.yml with your project name and copy keyfile.json to ~/.acloud/keyfile.json
 * serverless deploy
-* serverless invoke --function first
+* serverless invoke --function helloworld
