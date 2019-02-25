@@ -1,0 +1,12 @@
+service: my-sls-lambda
+
+frameworkVersion: ">=1.1.0"
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: us-east-1
+
+functions:
+  helloworld:
+    handler: index.greet
